@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.addEventListener(RENDER_EVENT, () => {
         renderTodo();
     });
-    renderTodo();
+    document.dispatchEvent(new Event(RENDER_EVENT));
 });
 
 
