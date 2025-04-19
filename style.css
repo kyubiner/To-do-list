@@ -8,9 +8,9 @@ body {
     linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px);
     background-size: 50px 50px;
     color: white;
-    font-family: sans-serif;
     font-size: large;
     height: 100%;
+    font-family: cursive;
 }
 
 main{
@@ -24,7 +24,6 @@ main{
     margin-bottom: 1rem;
     background-color: #f8f4e3;
     color: #135d46;
-    font-family: 'Press Start 2P', cursive;
     box-shadow: 6px 6px 0px  #000;
     image-rendering: pixelated;
     text-align: center;
@@ -39,6 +38,7 @@ main{
     padding: 7px;
     display: block;
     box-sizing: border-box;
+    font-family: cursive;
 }
 
 .button-form {
@@ -114,6 +114,7 @@ main{
 .card-button-delete {
     width: 100%;
     background-color: #dc2626;
+    font-family: cursive;
 }
 .card-button-delete:hover {
     background-color: #b91c1c;
