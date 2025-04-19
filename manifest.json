@@ -1,0 +1,21 @@
+{
+    "name": "To-Do List Harian",
+    "short_name": "ToDoHarian",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "rgba(255,255,255,0.1)",
+    "theme_color": "rgb(19, 93, 70)",
+    "description": "Catat dan kelola tugas harianmu dengan mudah.",
+    "icons": [
+    {
+        "src": "icon-192.png",
+        "sizes": "192x192",
+        "type": "img/book.png"
+    },
+    {
+        "src": "icon-512.png",
+        "sizes": "512x512",
+        "type": "img/book.png"
+    }
+    ]
+}
