@@ -8,9 +8,10 @@ body {
     linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px);
     background-size: 50px 50px;
     color: white;
-    font-size: large;
     height: 100%;
-    font-family: cursive;
+    font-family: 'VT323';
+    image-rendering: pixelated;
+    font-size: 30px;
 }
 
 main{
@@ -38,7 +39,7 @@ main{
     padding: 7px;
     display: block;
     box-sizing: border-box;
-    font-family: cursive;
+    font-family: 'VT323';
 }
 
 .button-form {
@@ -114,7 +115,7 @@ main{
 .card-button-delete {
     width: 100%;
     background-color: #dc2626;
-    font-family: cursive;
+    font-family: 'VT323';
 }
 .card-button-delete:hover {
     background-color: #b91c1c;
